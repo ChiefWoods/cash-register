@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="https://chiefwoods.github.io/footer-template/template.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>Cash Register</h1>
+    <hr>
+    <div>
+      <label for="number">Enter cash from customer:</label>
+      <div id="input-container">
+        <input id="cash" type="number">
+        <button id="purchase-btn">Purchase</button>
+      </div>
+    </div>
+    <div id="change-container">
+      <div id="change">
+        <h2>Change in drawer:</h2>
+      </div>
+      <div id="change-due" class="result"></div>
+    </div>
+  </main>
+  <footer>
+    <span class="made-by">Copyright @
+      <script>document.write(new Date().getFullYear())</script> ChiefWoods
+    </span>
+    <a class="github-link" href="https://github.com/ChiefWoods/cash-register" target="_blank">
+      <img src="./icons/github.svg" class="github-icon" alt="GitHub">
+    </a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
